@@ -2,9 +2,18 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Введите текст и нажмите <Enter>: ");
-        String text = new Scanner(System.in).nextLine();
-        System.out.println("Длина текста: "+text.length());
+        System.out.println("Введите два числа через Enter:");
+        int number = new Scanner(System.in).nextInt();
+        int number2 = new Scanner(System.in).nextInt();
+
+        int summ = number + number2;
+        int diff = number - number2;
+        int multt = number * number2;
+        double divv = (double)number / number2;
+        System.out.println("Сумма чисел = " + summ);
+        System.out.println("Разность чисел = " + diff);
+        System.out.println("Умножение чисел = " + multt);
+        System.out.println("Частное от деления чисел = " + divv);
 
     }
 }
