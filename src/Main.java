@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Введите число:");
+        System.out.println("Введите два числа через Enter:");
         int number = new Scanner(System.in).nextInt();
         int number2 = new Scanner(System.in).nextInt();
 
